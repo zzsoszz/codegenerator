@@ -45,13 +45,12 @@ public class MainForJavaByModel {
 			{
 				Map<String ,Object> root = new HashMap<String ,Object>();   
 		    	root.put("table", t);
-		    	String packageName=packagename;//  bxbasepassenger
+		    	String packageName=packagename;
 		    	String packageNamePath=packageName.replaceAll("\\.","/");
 		    	packageNamePath=packageNamePath+"/controller/"+t.getClassName().toLowerCase();
 		    	root.put("packageName",packageName);//生成java类的包名
 		    	root.put("packageNameForHttp",packageNamePath);
 		    	root.put("setupdir",packageNamePath);//生成action的路径
-		    	///D:/bxdev/trunck/tool/eclipse-java-mars-R-win32-x86_64/eclipse/workspace/search/target/classes/dinamica/generator/../../../demo/java
 		        String baseDIR = FileHelper.getFilePath(MainForJavaByModel.class)+"../../../demo/v1.0.1";
 		        //    找扩展名为txt的文件   
 		        String fileName = "*.ftl";

@@ -1,6 +1,8 @@
 package com.bxtel.model.model;
 import com.bxtel.model.*;
 import java.util.*;
+
+@Document(indexName = "database", type = ".Sms?lower_case", shards = 1, replicas = 0, refreshInterval = "-1")
 public class .Sms  
 {
 	

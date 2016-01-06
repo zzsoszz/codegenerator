@@ -243,7 +243,7 @@ public class TableFactory {
 			{
 				continue;
 			}
-			String className=myclass.getName().substring(myclass.getName().lastIndexOf('.'));
+			String className=myclass.getName().substring(myclass.getName().lastIndexOf('.')+1);
 			e.setClassName(className);
 			e.setRemarks(className);
 			e.setTableComments(className);
