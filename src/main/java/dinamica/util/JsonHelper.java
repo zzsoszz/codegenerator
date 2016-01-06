@@ -5,13 +5,14 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.bxtel.json.CustomAnyTimeDeSerializer;
-import com.bxtel.json.CustomTimeSerializer;
 import com.fasterxml.jackson.core.JsonParser.Feature;
 import com.fasterxml.jackson.core.Version;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
+
+import dinamica.util.json.CustomAnyTimeDeSerializer;
+import dinamica.util.json.CustomTimeSerializer;
 
 /*
  * http://wiki.fasterxml.com/JacksonHowToCustomSerializers

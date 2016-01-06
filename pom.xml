@@ -4,16 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.qingtian</groupId>
-	<artifactId>helloboot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>codegenerator</artifactId>
+	<version>1.0.0</version>
 	<!-- 
 		http://localhost:8080/helloboot-0.0.1-SNAPSHOT/send
 	 -->
 	<packaging>war</packaging>
-
-	<name>helloboot</name>
-	<description>Demo project for Spring Boot</description>
-
+	<name>codegenerator</name>
+	<description>codegenerator</description>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
